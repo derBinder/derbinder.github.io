@@ -1,64 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Valentine's Day Page</title>
 	<!-- Link to Bootstrap CSS file -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 	<style>
 		pre {
-			font-size: 2em;
+			font-size: 1.5em;
 			white-space: pre-wrap;
 			line-height: 1.2em;
+			color: #fff;
+		}
+		body {
+			background-color: #343a40;
+			color: #fff;
 		}
 	</style>
 </head>
 <body>
-	<!-- Header section using Jumbotron component -->
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1 class="display-4">Happy Valentine's Day!</h1>
-			<p class="lead">To my dearest love, this Valentine's Day I dedicate to you</p>
-			<pre>
-            ___   @   ___
-           / _ \  |  / _ \
-          | | | | | | | | |
-          | |_| | | | | | |
-           \___/  |_| \___/
-
-         Roses are red,
-         Violets are blue,
-         Sugar is sweet,
-         And so are you.
-         
-         Happy Valentine's Day,
-         My love, my heart, my dear,
-         I cherish every moment
-         That I spend with you here.
-         
-         You fill my life with joy
-         And my heart with pure delight,
-         I am forever grateful
-         To have you in my life tonight.
-
-         So here's a little token
-         Of my love, and my heart too,
-         I give you all of me,
-         And all my love, so true.
-			</pre>
+	<!-- Header section using Navbar component -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Valentine's Day Page</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Home</a>
+					</li>
+				</ul>
+			</div>
 		</div>
+	</nav>
+	
+	<!-- Content section using Container component -->
+	<div class="container my-5">
+		<pre>
+			Roses are red,
+                        Violets are blue,
+                        Sugar is sweet,
+                        And so are you.
+
+                        My dearest, you are my everything,
+                        I cannot express in words how much I love you,
+                        On this Valentine's Day and always,
+                        You are the sunshine of my life.
+
+                        You are my heart, my soul,
+                        My one true love, my eternal goal,
+                        I thank the heavens above
+                        For bringing us together in this lifetime.
+
+                        Let us celebrate this day together,
+                        With a smile, a kiss, an embrace,
+                        For nothing is more important than you and I,
+                        Forever and always, for all time.
+
+		</pre>
 	</div>
 	
-	<!-- Footer section -->
-	<footer class="footer mt-auto py-3">
+	<!-- Footer section using Footer component -->
+	<footer class="footer mt-auto py-3 bg-dark">
 		<div class="container">
-			<span class="text-muted">© 2023.
-				<a href="#">Valentine's Day Page</a></span>
-		</div>
-	</footer>
-	
-	<!-- Link to Bootstrap JS file -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
-</html>
+			<span class="text-muted">© 2023. <a href="#">
